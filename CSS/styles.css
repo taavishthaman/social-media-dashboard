@@ -1,0 +1,256 @@
+body{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+th{
+  padding : 0 7% 4% 7%;
+}
+
+.header_div{
+  background-color: hsl(228, 28%, 20%);
+  height: 250px;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 3%;
+}
+
+.title{
+  color: white;
+  position: absolute;
+  left: 10%;
+  top : 3%;
+}
+
+.subtitle{
+  position: absolute;
+  color: white;
+  left: 10%;
+  top : 12%;
+  font-size: 14px;
+}
+
+.body_div{
+  background-color: hsl(232, 19%, 15%);
+  height: 1000px;
+}
+
+.switch {
+ position: relative;
+ display: inline-block;
+  width: 60px;
+  height: 34px;
+  position: absolute;
+  right: 10%;
+  top: 3%;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-image: linear-gradient(hsl(210, 78%, 56%) , hsl(146, 68%, 55%));
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dm{
+  color: white;
+  position: absolute;
+  right: 15%;
+  top: 4%;
+}
+
+.card-all-time{
+  height: 210px;
+  width: 210px;
+  background-color: hsl(230, 17%, 14%);
+  position: absolute;
+  z-index: 1;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card-div{
+  margin-left: 10%;
+  position: relative;
+  bottom: 10%;
+  margin-right: 3%;
+}
+
+.rule{
+  border-top: 5px solid hsl(208, 92%, 53%);
+  margin: 0;
+  border-radius: 8px 8px 0 0 ;
+}
+
+.rule_instagram{
+  background: linear-gradient(to right, hsl(37, 97%, 70%) , hsl(329, 70%, 58%));
+  margin: 0;
+  height: 5px;
+  border-radius: 8px 8px 0 0 ;
+}
+
+.rule_youtube{
+  background: hsl(348, 97%, 39%);
+  margin:0;
+  height: 5px;
+  border-radius: 8px 8px 0 0 ;
+}
+
+.username {
+  color: white;
+  font-size: 12px;
+  float: right;
+  display: inline-block;
+  margin-right: 53px;
+  margin-top: 3px;
+}
+
+.card-title{
+  margin-top: 8%;
+}
+
+.social-img{
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.number {
+  font-size: 45px;
+  margin-top: 10%;
+  font-weight: bold;
+  color: white;
+}
+
+.followers{
+  margin: 0;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.up{
+  margin-left: 27%;
+  margin-bottom: 2%;
+  font-size: 12px;
+}
+
+.up-today{
+  color: hsl(163, 72%, 41%);
+  float: right;
+  margin-right: 35%;
+  font-size: 12px;
+}
+
+.overview{
+  margin-left: 7%;
+  margin-top: 10%;
+  color: white;
+}
+
+.card-today{
+  height: 150px;
+  width: 210px;
+  background-color: hsl(230, 17%, 14%);
+  z-index: 1;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.page-views{
+  color: white;
+  font-size: 12px;
+  margin-top: 3px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.social-img-2{
+  display: inline-block;
+  margin-right: 20px;
+  float: right;
+}
+
+.card-footer{
+  margin-top: 15%;
+}
+
+.views-today{
+  font-size: 30px;
+  margin-left: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.up-bottom{
+  right: 40px;
+  float: right;
+  position: relative;
+  bottom : 20px;
+}
+
+.percent{
+  color: white;
+  position: relative;
+  float: right;
+  display: inline-block;
+  bottom: 26px;
+  font-size: 10px;
+  right: 10px;
+  color: hsl(163, 72%, 41%);
+}
+
+.bottom-card-div{
+  padding : 3% 4% 0 4%;
+}
+
+.cdb{
+  margin-left: 7%;
+  position: relative;
+  bottom: 10%;
+}
